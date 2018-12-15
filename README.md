@@ -12,8 +12,7 @@ Normally, our example would involve a Transport Socket Layer handshake to establ
 
 A solution to this would be to add a valid SSL certificate to techtonicgroup.com so that visitors using HTTPS can access the site securely and receive the redirect to https://www.techtonic.com, which has a functioning certificate. Using http instead of https also works - it allows users to access and be redirected from the uncertified site - but that should be considered a security vulnerability.
 
-From start to finish how does that data reach you to be rendered in the browser? 
-
+## From start to finish how does that data reach you to be rendered in the browser? 
 When the browser successfully connects to a website, it uses some routine (as in the async examples from Codecademy) to make GET and POST requests. The the connection is characterized by status- and error-checking responses to these requests, and by the exchange of Promises, which help manage the many requests by acting as a placeholder for currently-unavailable data. A promise waits to be resolved in a pending state; thereafter being fulfilled with a successful execution of the request or rejected otherwise. Once a successful response has been received, it is rendered as a webpage by the browser, for example by using the renderResponse() or renderRawResponse() functions. 
 
 ## What code is rendered in the browser? 
