@@ -1,0 +1,7 @@
+p {
+     font-family: Arial;
+   }
+h1 {
+ color:maroon;
+}
+/* I added attributes to the h1 elemental globally by making changes to the  .css file */

@@ -1,0 +1,12 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title {
+  color: teal;
+}
+/* I overrode the formatting of h1 by adding attributes to .title in CSS */
