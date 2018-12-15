@@ -1,0 +1,1 @@
+/*I was introduced to variables keywords and uses in javascript */

@@ -1,0 +1,5 @@
+{
+  "presets": ["env"]
+}
+
+/* I specified the version of JavaScript for babel */

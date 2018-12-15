@@ -1,0 +1,2 @@
+/* I read about making my chained Promises simpler by
+using the functionality of the async and await keywords */
